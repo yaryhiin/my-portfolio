@@ -1,5 +1,6 @@
 import walletImg from "../images/WalletApp.png";
-import barbershopImg from "../images/LandingBarber.png";
+import barbershopImg from "../images/Barbershop.png";
+import trainerImg from "../images/PersonalTrainer.png";
 
 const Projects = () => {
   return (
@@ -49,18 +50,19 @@ const Projects = () => {
           </a>
         </div>
         <div className="project">
-          <h2 className="projectName">Landing Page Template #2</h2>
+          <h2 className="projectName">Personal Trainer Landing Page</h2>
           <p className="projectDescription">
-            This is one more example of a responsive landing page template with
-            a modern design.
+            A clean, mobile-first landing page designed for a personal trainer.
+            It highlights services, builds trust through clear value points, and
+            drives visitors to book a free consultation.
           </p>
           <img
-            src=""
-            alt="Landing Page Template #2 Screenshot"
+            src={trainerImg}
+            alt="Personal Trainer Landing Page Screenshot"
             className="projectImage"
           />
           <a
-            href="/"
+            href="https://yaryhiin-trainer-landing.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
             className="projectLink"
