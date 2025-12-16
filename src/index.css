@@ -34,6 +34,12 @@ body {
   text-align: center;
 }
 
+.projectsSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .projectsContainer {
   display: grid;
   grid-template-columns: 1fr;
@@ -96,5 +102,11 @@ body {
   a,
   p {
     font-size: 18px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .projectsContainer {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
